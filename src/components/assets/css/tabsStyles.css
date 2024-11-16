@@ -1,0 +1,131 @@
+.containerTabs {
+  margin: 35px;
+}
+
+/* Diseño de las pestañas de navegación */
+
+
+.nav-link {
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+/* Contenedor del contenido de cada pestaña */
+.tab-content {
+  margin-top: 20px;
+}
+
+/* Estilo para la fila de tarjetas */
+.rowTabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6.5rem;
+}
+
+/* Columnas para las tarjetas */
+.colTabs {
+  flex: 1 1 18rem; /* Ajusta el ancho de las columnas */
+  max-width: 18rem;
+}
+
+/* Estilo para las tarjetas */
+.plan-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 60vh;
+
+}
+
+.plan-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo para el encabezado de las tarjetas */
+.card-header {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Contenido del cuerpo de las tarjetas */
+.card-body {
+  text-align: left;
+  padding: 0;
+}
+
+.card-body img {
+  float: left; /* Alinea la imagen a la izquierda */
+  width: 40px; /* Tamaño de la imagen */
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 170px; /* Espacio entre la imagen y el texto */
+  object-fit: cover; /* Mantiene la imagen dentro de los límites */
+}
+
+/* Estilos para los precios y títulos de las tarjetas */
+.card-body .price {
+  font-size: 25px;
+  color: #444444;
+  font-weight: bold;
+  text-align: center;
+  color: #df4747;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d81111;
+}
+
+.cardtitle2{
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #d81111;
+}
+
+.part2 {
+  height: auto;
+  background-color: #f0f0f0; /* Fondo gris medio */
+  padding: 10px; /* Añade algo de espacio interno */
+}
+.card-text {
+  font-size: 0.9rem;
+  margin-top: px;
+}
+
+.text-muted {
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilos para los enlaces y botones */
+.linkTabs {
+  color: #e44646;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.linkTabs:hover {
+  text-decoration: underline;
+}
+
+.btnTabs {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnTabs:hover {
+  background-color: #ffffff;
+  color: red;
+  border: 1px solid red;
+}

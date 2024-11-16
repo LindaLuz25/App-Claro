@@ -1,0 +1,156 @@
+.r06Pedidos {
+  background-color: #f5f5f5;
+  padding: 20px;
+  justify-content: space-between;
+  justify-items: center;
+}
+/*header nav*/
+.nav-tabs .nav-link {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+/*letra de la nav*/
+.nav-tabs .nav-link.active {
+  color: #e60000;
+  border-color: transparent transparent #e60000;
+}
+
+/*div text pedidos*/
+.textPerdidos {
+  flex: 1;
+  padding: 15px;
+}
+
+.textPerdidos span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.textPerdidos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.textPerdidos p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/*estilo btnpedidos*/
+.btnPedidos {
+  background-color: #e60000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+.btnPedidos:hover {
+  background-color: #fff;
+  color: red;
+}
+
+/*estilo de los cards*/
+.rowPedidos {
+  display: flex;
+  gap: 20px;
+}
+
+.colPedidos {
+  flex: 1;
+  max-width: 250px;
+}
+
+.cardPedidos {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cardPedidos:hover {
+  transform: scale(1.05);
+}
+
+.tabsPedidos {
+  position: relative;
+}
+
+.imgPedidos .imgpedidos {
+  width: 90px;
+  height: auto;
+  margin-right: 0px;
+}
+
+.titlePedidos {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.textPedidos {
+  font-size: 1rem;
+  color: #e60000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.contentPedidos .pricePedido {
+  font-size: 1rem;
+  color: #e60000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+/*estilo de los btn compra*/
+.btnComprar {
+  background-color: #e60000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+.btnComprar:hover {
+  background-color: #ffff;
+  color: red;
+}
+
+
+
+
+
+/*Estilo mini banner2*/
+.sectionBanner {
+  margin-top: 35px;
+  padding: 0px 0 60px 0;
+}
+.bannerBody {
+  background-color: #da291c;
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  min-height: 120px;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerBody h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}

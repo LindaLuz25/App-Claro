@@ -1,0 +1,118 @@
+.containerAyuda {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.textAyuda1 {
+  text-align: center;
+  font-weight: bold;
+  color: #7c7979;
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+.textAyuda2 {
+  text-align: center;
+  font-weight: bold;
+  color: #6d6a6a;
+}
+.cardAyuda {
+  width: 23rem;
+  height: 13rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.cardAyuda:hover{
+    transform: translateY(-5px);
+}
+
+.bodyAyuda .titleAyuda {
+  color: #5a5858;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.btnAyuda {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btnAyuda:hover {
+  background-color: red;
+  color: white;
+}
+
+
+
+
+
+
+/*DISEÑO DE CARDS DE APP CLARO*/
+
+.containerAppClaro {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.cardAppClaro {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.cardAppClaro:hover {
+  transform: translateY(-5px);
+}
+
+.infoAppClaro {
+  flex: 2;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardAppClaro .titleAppClaro {
+  color: #3f3f3f;
+  font-weight: bold;
+}
+
+.imgApp img {
+  width: 220px; /* Hace que la imagen ocupe el 100% del contenedor */
+  height: auto;
+}
+
+.cardAppClaro {
+  margin-left: 16px; /* Agrega un margen a la derecha de la imagen */
+}
+
+.infoAppClaro .storeButtons .storeIcon{
+    width: 93px;
+}
+

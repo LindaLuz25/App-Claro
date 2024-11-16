@@ -1,0 +1,64 @@
+
+
+.myNavbar {
+  color: white;
+  background-color: #eb2325;
+  padding: 1px 50px; /* Ajusta el padding */
+  width: 100%;
+  top: 0;
+  font-weight: bold;
+}
+
+.containerItems {
+  display: flex;
+  justify-content: space-between; /* Distribuye logo, menú y botón */
+  align-items: center;
+}
+
+.miClaroButton img  {
+  width: 15px;
+  margin-top: -5px;
+  margin-right: 5px;
+  height: auto;
+}
+
+.menuCollapse {
+  display: flex;
+  justify-content: flex-start; /* Alinea el menú al inicio */
+  margin-left: 1px; /* Espacio entre el logo y el menú */
+}
+
+.nav a {
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.myNavbar .searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.myNavbar .searchContainer .miClaroButton {
+  display: flex;
+  align-items: center;
+  background-color: #c70100;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.myNavbar .searchContainer .miClaroButton:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.myNavbar .searchContainer ion-icon {
+  font-size: 20px;
+  color: white;
+}

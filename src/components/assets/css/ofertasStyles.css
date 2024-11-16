@@ -1,0 +1,55 @@
+.cardsOfertas {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.cardOferta {
+  width: 17.5rem;
+  background-color: #da291c;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-title-oferta {
+  background-color: #d32f2f; /* Color de fondo rojo */
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-content-oferta {
+  position: relative;
+}
+
+.card-content-oferta .imgOfertas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.card-content-oferta .btnOferta {
+  position: absolute;
+  bottom: 15px; /* Ajusta la distancia desde la parte inferior de la imagen */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #d32f2f;
+  padding: 6px 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 85%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-content-oferta .btnOferta:hover {
+  color: #ffffff;
+  background-color: #d32f2f;
+}
